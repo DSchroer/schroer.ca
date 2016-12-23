@@ -1,0 +1,16 @@
+<div id="<%-number%>" class="row blog-post">
+
+	<a href="<%- url_for(item.path) %>">
+		<h2>
+			<%- item.title %>
+		</h2>
+	</a>
+
+	<div class="markdown-body">
+		<%- item.excerpt %>
+	</div>
+
+	<div class="blog-post-footer">
+		<a href="<%- url_for(item.path) %>">Read More...</a>
+	</div>
+</div>

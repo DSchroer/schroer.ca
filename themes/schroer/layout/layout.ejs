@@ -1,0 +1,33 @@
+<html>
+
+<!-- Head tag -->
+<%- partial('_partial/head') %>
+
+<body onload="Sunlight.highlightAll()">
+    <!-- Menu -->
+    <%- partial('_partial/menu') %>
+
+    <div class="container">
+
+        <div class="row">
+
+            <!-- Main Content -->
+            <div class="col-lg-8 col-xs-12 blog-main">
+                <%- body %>
+            </div>
+
+            <!-- Sidebar -->
+            <div class="col-lg-3 offset-lg-1 hidden-md-down">
+                <%- partial('_partial/sidebar') %>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <%- partial('_partial/footer') %>
+
+    <!-- After footer scripts -->
+    <%- partial('_partial/after-footer') %>
+</body>
+
+</html>

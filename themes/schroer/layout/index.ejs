@@ -1,0 +1,5 @@
+
+<%var i = 0;%>
+<% site.posts.sort('date', -1).each(function(item){ %>
+    <%- partial('_partial/article-excerpt', {item: item, number:i++}) %>
+<% }); %>

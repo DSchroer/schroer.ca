@@ -1,0 +1,232 @@
+/*
+ * Globals
+ */
+
+/* latin */
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: serif;
+  font-weight: 400;
+  src: local('Roboto Slab'), local('RobotoSlab-Regular'), url(/fonts/Roboto-Slab.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@media (min-width: 48em) {
+  html {
+    font-size: 18px;
+  }
+}
+
+body {
+  font-family: "Roboto Slab", serif;
+  background-color: #F2F2F2;
+  color: #6B6B6B;
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  font-family:   'Roboto Slab', serif;
+  font-weight: normal;
+  color: #333;
+  font-weight: 700;
+  line-height: 1.1;
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+
+/*
+ * Override Bootstrap's default container.
+ */
+
+.container {
+  max-width: 60rem;
+}
+
+
+/*
+ * Masthead for nav
+ */
+
+.blog-masthead {
+  margin-bottom: 40px;
+  background-color: #363636;
+  -webkit-box-shadow: inset 0 -.1rem .25rem rgba(0,0,0,.1);
+          box-shadow: inset 0 -.1rem .25rem rgba(0,0,0,.1);
+  font-family: "Roboto Slab", serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navbar-brand a{
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+    margin: 13px 0;
+    color: #DADADA;
+    font-size: 20px;
+    margin: 13px 0;
+    font-family: 'Roboto Slab', serif;
+}
+
+/* Nav links */
+.nav-link {
+  position: relative;
+  padding: 1rem;
+  font-weight: 500;
+  color: #cdddeb;
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: #fff;
+  background-color: transparent;
+}
+
+/* Active state gets a caret at the bottom */
+.nav-link.active {
+  color: #fff;
+}
+.nav-link.active:after {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 0;
+  margin-left: -.3rem;
+  vertical-align: middle;
+  content: "";
+  border-right: .3rem solid transparent;
+  border-bottom: .3rem solid;
+  border-left: .3rem solid transparent;
+}
+
+.sidebar h3{
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+  margin-top: 0;
+  color: #636467;
+  font-family: 'Open Sans', serif;
+  font-weight: 700;
+}
+
+
+/*
+ * Blog name and description
+ */
+
+.blog-header {
+  padding-bottom: 1.25rem;
+  margin-bottom: 2rem;
+  border-bottom: .05rem solid #eee;
+}
+.blog-title {
+  margin-bottom: 0;
+  font-size: 2rem;
+  font-weight: normal;
+}
+.blog-description {
+  font-size: 1.1rem;
+  color: #999;
+}
+
+@media (min-width: 40em) {
+  .blog-title {
+    font-size: 3.5rem;
+  }
+}
+
+
+/*
+ * Main column and sidebar layout
+ */
+.gutter{
+  display: none;
+}
+
+.sunlight-line-number-margin{
+  display: none;
+}
+
+.sunlight-code-container{
+  border: none !important;
+}
+
+.sunlight-container{
+  border: 1px #DADADA solid;
+}
+
+/* Sidebar modules for boxing content */
+.sidebar-module {
+  padding: 1rem;
+  /*margin: 0 -1rem 1rem;*/
+}
+.sidebar-module-inset {
+  padding: 1rem;
+  background-color: #f5f5f5;
+  border-radius: .25rem;
+}
+.sidebar-module-inset p:last-child,
+.sidebar-module-inset ul:last-child,
+.sidebar-module-inset ol:last-child {
+  margin-bottom: 0;
+}
+
+.sidebar .link{
+  border-bottom: 1px solid #DADADA;
+  margin-bottom: 10px;
+}
+
+.sidebar a{
+  color:#6B6B6B;
+}
+
+
+/* Pagination */
+.blog-pagination {
+  margin-bottom: 4rem;
+}
+.blog-pagination > .btn {
+  border-radius: 2rem;
+}
+
+/*
+ * Blog posts
+ */
+
+.blog-post {
+  background-color: #fff;
+  border-color: #DADADA;
+  border-style: solid;
+  border-width: 1px;
+  padding: 45px 50px;
+  margin-bottom: 40px;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  line-height: 1.7;
+  font-size: 14px;
+}
+
+.blog-post-title {
+  margin-bottom: .25rem;
+  font-size: 2.5rem;
+}
+.blog-post-meta {
+  margin-bottom: 1.25rem;
+  color: #999;
+}
+
+.blog-post-footer{
+  margin-top: 10px;
+}
+
+.blocking {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #000000;
+}
