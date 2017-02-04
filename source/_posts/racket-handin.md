@@ -98,11 +98,11 @@ get-user-fields\n
 
 ## Retrieve User Info
 
-Retrieving user info will return values that match the user fields retrieved by the previous command. In order to get this command to execute correctly the connection must be authenticated. It is a single command of ***retrieve-user-info*** sent to the server.
+Retrieving user info will return values that match the user fields retrieved by the previous command. In order to get this command to execute correctly the connection must be authenticated. It is a single command of ***get-user-info*** sent to the server.
 
 ### Client:
 ```
-retrieve-user-info\n
+get-user-info\n
 ```
 
 ### Server:
