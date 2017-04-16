@@ -4,7 +4,7 @@ date: 2017-04-13 10:48:15
 tags: chromebook sd storage hardware hack
 ---
 
-I have been using my Lenovo N22 Chromebook running linux for a couple of months now. It is an extremely convenient laptop for travel, school and even personal projects. I have even been able to use the recently released Vulkan graphics API, just to show how capable these little laptops are. Unfortunately there is one small problem that has been bothering me. The N22 model, similar to almost all Chromebooks, only has 16GB of storage. 
+I have been using my Lenovo N22 Chromebook, running linux, for a couple of months now. It is an extremely convenient laptop for travel, school, and even personal projects. I have even been able to use the recently released Vulkan graphics API, just to show how capable these little laptops are. Unfortunately, there is one small problem that has been bothering me. The N22 model, similar to almost all Chromebooks, only has 16GB of storage. 
 
 In this post I will explore my solution to expand the devices storage capacity. 
 
@@ -12,7 +12,7 @@ In this post I will explore my solution to expand the devices storage capacity.
 
 ## First Idea
 
-My initial idea was to simply go out and purchase a large SD card. Unfortunately my device only has a regular SD card reader. So I ended up having a large card jutting out from the side, that could fall out at any time. There was no way that I would use that for a long time. 
+My initial idea was to simply go out and purchase a large SD card. Unfortunately my device only has a regular SD card reader. So I ended up having a large card jutting out from the side, that could fall out at any time. There was no way I would use that for a long time. 
 
 So I began by removing the plastic casing off the card. As it turns out, modern full sized SD cards do not use the full space provided to them. So I could remove half of the space that the card took up. This still wasn't enough to fit nicely into the reader. So I moved to a more interesting approach.
 
