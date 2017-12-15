@@ -62,7 +62,11 @@ h6, .h6 {
   font-weight: bold;
 }
 
-.navbar-brand a{
+.navbar-brand {
+  width: 100%;
+}
+
+.navbar-brand .title {
     float: left;
     height: 50px;
     padding: 15px 15px;
@@ -73,6 +77,19 @@ h6, .h6 {
     font-size: 20px;
     margin: 13px 0;
     font-family: 'Roboto Slab', serif;
+}
+
+.navbar-brand .right-content a{
+  float: right;
+  height: 50px;
+  padding: 10px 15px;
+  font-size: 18px;
+  line-height: 20px;
+  margin: 13px 0;
+  color: #DADADA;
+  font-size: 20px;
+  margin: 13px 0;
+  font-family: 'Roboto Slab', serif;
 }
 
 /* Nav links */
