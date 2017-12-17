@@ -82,7 +82,7 @@ h6, .h6 {
 .navbar-brand .right-content a{
   float: right;
   height: 50px;
-  padding: 10px 15px;
+  padding: 13px 15px;
   font-size: 18px;
   line-height: 20px;
   margin: 13px 0;
@@ -90,6 +90,16 @@ h6, .h6 {
   font-size: 20px;
   margin: 13px 0;
   font-family: 'Roboto Slab', serif;
+}
+
+.navbar-brand .right-content img{
+  width: 1.1em;
+  height: 1.1em;
+}
+
+.background-tint {
+  background-color: rgba(200,100,0,.5);
+  background-blend-mode: multiply;
 }
 
 /* Nav links */
