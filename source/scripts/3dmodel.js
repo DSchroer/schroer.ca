@@ -59,6 +59,12 @@ function init() {
     controls.enableZoom = true;
     controls.autoRotate = true;
     controls.enablePan = false;
+
+    window.onresize = function () {
+        camera.aspect = container.clientWidth / 400;
+        camera.updateProjectionMatrix();
+        renderer.setSize(container.clientWidth, 400);
+    }
 }
 
 function animate() {

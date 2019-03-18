@@ -23,6 +23,10 @@ body {
   color: #6B6B6B;
 }
 
+.header-anchor{
+  display: none;
+}
+
 h1, .h1,
 h2, .h2,
 h3, .h3,
@@ -37,6 +41,36 @@ h6, .h6 {
   font-size: 28px;
   margin-bottom: 30px;
 }
+
+h1, .h1 { font-size: 2,5em; }
+h2, .h2 { font-size: 2em; }
+h3, .h3 { font-size: 1.5em; margin-bottom: 0.3em; }
+h4, .h4 { font-size: 1em; margin-bottom: 0.3em; }
+
+.name > h1  {
+  margin-bottom: 0.3em;
+}
+
+.keylist  ul {
+  list-style-type: none;
+  padding: 5px 0;
+}
+
+.keylist  p {
+  list-style-type: none;
+  padding: 5px 0;
+  margin: 0px;
+}
+
+.keylist  li {
+  float: left;
+  margin: 5px;
+  border: 1px solid;
+  border-radius: 3px;
+  padding: 0 5px;
+  font-size: 11px;
+}
+
 
 
 /*
@@ -174,7 +208,6 @@ h6, .h6 {
     font-size: 3.5rem;
   }
 }
-
 
 /*
  * Main column and sidebar layout
