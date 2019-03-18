@@ -1,0 +1,19 @@
+<div class="pagination-bar">
+    <span class="pagination blog-pagination">
+        <% if (page.prev) { %>
+        <span class="pagination-prev">
+            <a href="<%=url_for(page.prev_link)%>">&lt;</a>
+        </span>
+        <% } %>
+
+        <span class="pagination-number right-content">
+            <%= page.current + ' of ' + page.total %>
+        </span>
+
+        <% if (page.next) { %>
+        <span class="pagination-next">
+            <a href="<%=url_for(page.next_link)%>">&gt;</a>
+        </span>
+        <% } %>
+    </span>
+</div>

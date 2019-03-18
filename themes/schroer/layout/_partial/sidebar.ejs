@@ -2,11 +2,11 @@
     <h3>RECENT POSTS</h3>
 
     <%var i = 0;%>
-    <% site.posts.sort('date', -1).each(function(item){ %>
-        <%if(i<10){%>
-        <div class="col-xs-12 link">
-            <a href="<%-url_for(item.path)%>"><%- item.title %></a>
-        </div>
-        <%}%>
+    <% site.posts.sort('date', -1).slice(0, 10).each(function(item){ %>
+    <%if(i<10){%>
+    <div class="col-xs-12 link">
+        <a href="<%-url_for(item.path)%>"><%- item.title %></a>
+    </div>
+    <%}%>
     <% }); %>
 </div>

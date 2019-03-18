@@ -47,6 +47,9 @@ h6, .h6 {
   max-width: 60rem;
 }
 
+.pagination-bar a {
+  color: #006fce;
+}
 
 /*
  * Masthead for nav
@@ -63,11 +66,15 @@ h6, .h6 {
 }
 
 .navbar-brand {
+  margin: 0.5em 0;
   width: 100%;
 }
 
+.navbar-brand .right {
+  float: right;
+}
+
 .navbar-brand .title {
-    float: left;
     height: 50px;
     padding: 15px 15px;
     font-size: 18px;
@@ -79,8 +86,7 @@ h6, .h6 {
     font-family: 'Roboto Slab', serif;
 }
 
-.navbar-brand .right-content a{
-  float: right;
+.navbar-brand a{
   height: 50px;
   padding: 13px 15px;
   font-size: 18px;
@@ -92,7 +98,7 @@ h6, .h6 {
   font-family: 'Roboto Slab', serif;
 }
 
-.navbar-brand .right-content img{
+.navbar-brand img{
   width: 1.1em;
   height: 1.1em;
 }
@@ -139,7 +145,7 @@ h6, .h6 {
   margin-bottom: 25px;
   margin-top: 0;
   color: #636467;
-  font-family: 'Open Sans', serif;
+  font-family: 'Roboto Slab', serif;
   font-weight: 700;
 }
 
@@ -174,7 +180,7 @@ h6, .h6 {
  * Main column and sidebar layout
  */
 .gutter{
-  display: none;
+   display: none;
 }
 
 .sunlight-line-number-margin{
@@ -217,7 +223,8 @@ h6, .h6 {
 
 /* Pagination */
 .blog-pagination {
-  margin-bottom: 4rem;
+  display: table;
+  margin: 0 auto 1rem auto;
 }
 .blog-pagination > .btn {
   border-radius: 2rem;
