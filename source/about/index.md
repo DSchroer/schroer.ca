@@ -21,7 +21,7 @@ LinkedIn: [Dominick Schroer](https://www.linkedin.com/in/dominick-schroer-018057
 
 ## About Me
 
-I have been interested in technology and software development from a young age. Being a curious person and growing up in an engineering household has turned me into a lifelong learner. I have a very inquisitive mind and jump at any new challenge that comes my way. I believe in good software design and have a passion for well built and flexible tools.
+I have been interested in technology and software development from a young age. Being a curious person and growing up in an engineering household has turned me into a lifelong learner. I believe in good software design and have a passion for well built and flexible tools.
 
 ## Skills
 
@@ -109,12 +109,12 @@ __Security__
 
 Tools Programmer
 2017-09-05 - present
-I started at Square as an intern after working for IBM. I worked on their internal technology team and stayed there for 3 internships in total. After my school was complete I joined the team full time. My primary role was developing a web application that is used by game teams during the production and live ops phases. This applications goal was to be a one stop portal for all members of the production staff such as developers, designers and management.
+I started at Square as an intern while I was still in school. I worked on their internal technology team and stayed there for a total of 3 internships. After my school was complete I joined the team full time. My work here consists of building tools and workflows to help the production process.
 ### NATECH Environmental Services Inc.
 
 Network Administrator / Software Developer
 2014-09-01 - 2018-04-01
-For most of my life I have worked on and off for NATECH. It was my fathers engineering firm. I started work there doing small technician jobs and moved on to more software and hardware specific tasks as my skills developed.
+For most of my life I have worked on and off for NATECH. It was my fathers engineering firm and has been something I was involved in from an early age. I started work there doing small technician jobs and moved on to more software and hardware specific tasks as my skills developed.
 ### IBM Fredericton
 
 Intern Programmer
@@ -124,7 +124,7 @@ During university I started my internships working at IBM fredericton. They were
 
 Summer Student
 2013-06-01 - 2014-02-01
-This was my first software development job. I was fresh out of high school when I started working with them for the summer. I was on a small team of two developpers. My colleague focused on creating new web tools and I focused on the crawlers that fed the pages.
+This was my first software development job. I was fresh out of high school when I started working with them for the summer. I was on a small team of two developers. My colleague focused on creating new web tools and I focused on the web crawlers that fed the pages with new information.
 ## Education
 
 ### University of New Brunswick
