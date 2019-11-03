@@ -13,7 +13,7 @@ steps:
     image: plugins/gcs
     settings:
       source: public
-      target: schroer.ca/
+      target: schroer.ca/tmp/
       acl: allUsers:READER
       gzip: js,css,html
       cache_control: public,max-age=3600
