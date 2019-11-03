@@ -1,0 +1,22 @@
+kind: pipeline
+type: docker
+name: default
+
+steps:
+  - name: build
+    image: node
+    commands:
+      - npm ci
+      - npm run build
+
+  - name: upload  
+    image: plugins/gcs
+    settings:
+      source: public
+      target: gs://schroer.ca/
+      acl: allUsers:READER
+      gzip: js,css,html
+      cache_control: public,max-age=3600
+      token:
+        from_secret: google-token
+        
