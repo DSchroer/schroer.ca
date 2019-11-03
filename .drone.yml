@@ -13,10 +13,9 @@ steps:
     image: plugins/gcs
     settings:
       source: public
-      target: gs://schroer.ca/
+      target: schroer.ca
       acl: allUsers:READER
       gzip: js,css,html
       cache_control: public,max-age=3600
       token:
         from_secret: google-token
-        
