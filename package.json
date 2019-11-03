@@ -6,7 +6,7 @@
     "version": "3.8.0"
   },
   "scripts": {
-    "start": "hexo server",
+    "start": "hexo server --draft",
     "build": "hexo generate",
     "new-post": "hexo new post",
     "new-page": "hexo new page test"
