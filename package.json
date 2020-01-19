@@ -8,7 +8,7 @@
   "scripts": {
     "start": "hexo server --draft",
     "build": "hexo generate",
-    "new-post": "hexo new post",
+    "new-post": "hexo new post --draft",
     "new-page": "hexo new page test"
   },
   "dependencies": {
