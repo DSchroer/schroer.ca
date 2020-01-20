@@ -47,4 +47,4 @@ Finally, I would like to express my thanks to everyone who was able to help me a
 ### TLDR
 * Get things looked at, even if they only seem a little off.
 * Keep personal copies of your medical documents.
-* Always find the right specialist for your situation. Its ok to get a second opinion.
+* Always find the right specialist for your situation. It's ok to get a second opinion.
