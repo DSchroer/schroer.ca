@@ -25,7 +25,7 @@ I have been interested in technology and software development from a young age. 
 
 ## Skills
 
-<div class='row' markdown='1'>
+<div class='row keylist-container' markdown='1'>
 
 <div class='col-md-4 keylist' markdown='1'>
 
@@ -47,6 +47,7 @@ __.NET Development__
 * Mono Cecil
 * Roslyn
 * Entity Framework
+* AKKA .Net
 </div>
 
 <div class='col-md-4 keylist' markdown='1'>
@@ -65,13 +66,14 @@ __Low Level__
 * C
 * C++
 * Objective C
+* AVR
 </div>
 
 </div>
 
 ## Interests
 
-<div class='row' markdown='1'>
+<div class='row keylist-container' markdown='1'>
 
 <div class='col-md-4 keylist' markdown='1'>
 

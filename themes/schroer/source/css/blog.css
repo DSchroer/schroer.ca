@@ -54,16 +54,25 @@ h4, .h4 { font-size: 1em; margin-bottom: 0.3em; }
 .keylist  ul {
   list-style-type: none;
   padding: 5px 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.keylist-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .keylist  p {
   list-style-type: none;
   padding: 5px 0;
   margin: 0px;
+  align-self: stretch;
 }
 
 .keylist  li {
-  float: left;
   margin: 5px;
   border: 1px solid;
   border-radius: 3px;
