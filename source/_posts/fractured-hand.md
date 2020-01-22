@@ -4,7 +4,7 @@ date: 2020-01-19 10:58:02
 tags: hand, fracture, hospital, running
 ---
 
-As is usual for me, this year I went back home for the Christmas holidays. It's always a nice time, however I find that it always ends up being busier than expected. This year was no exception. I had the usual family gatherings, drinks with friends and other get-togethers. Plus, there was one additional sporty social event. My girlfriend and I, who are both runners, were invited to join the Tri-Annual Harry and Henney Fun Run. It was a simple event, start the day with a 5k, a 10k or a half-marathon and then enjoy a nice breakfast. Seemed simple enough and I didn't put much thought into it. Christmas is busy, it's always like that, so what's the worst that could happen? All I was worried about was a bit of burn out at the end. Little did I know, I would be learning a lot of important lessons in the coming weeks.
+As is usual for me, this year I went back home for the Christmas holidays. It's always a nice time, however I find that it always ends up being busier than expected. This year was no exception. I had the usual family gatherings, drinks with friends and other get-togethers. Plus, there was one additional sporty social event. My girlfriend and I, who are both runners, were invited to join the Tri-Annual Harry and Henny Fun Run. It was a simple event, start the day with a 5k, a 10k or a half-marathon and then enjoy a nice breakfast. Seemed simple enough and I didn't put much thought into it. Christmas is busy, it's always like that, so what's the worst that could happen? All I was worried about was a bit of burn out at the end. Little did I know, I would be learning a lot of important lessons in the coming weeks.
 
 <!-- more -->
 
