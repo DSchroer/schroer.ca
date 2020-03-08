@@ -80,6 +80,17 @@ h4, .h4 { font-size: 1em; margin-bottom: 0.3em; }
   font-size: 11px;
 }
 
+.keypoint {
+  display: inline-block;
+  margin: 5px;
+  margin-top: 3px;
+  border: 1px solid;
+  border-radius: 3px;
+  padding: 0px 5px;
+  font-size: 11px;
+}
+
+
 
 
 /*
@@ -305,4 +316,33 @@ h4, .h4 { font-size: 1em; margin-bottom: 0.3em; }
   border-width: 1px;
   border-style: solid;
   border-color: #000000;
+}
+
+@media print {
+  .col-md-1 {width:8%;  float:left;}
+  .col-md-2 {width:16%; float:left;}
+  .col-md-3 {width:25%; float:left;}
+  .col-md-4 {width:33%; float:left;}
+  .col-md-5 {width:42%; float:left;}
+  .col-md-6 {width:50%; float:left;}
+  .col-md-7 {width:58%; float:left;}
+  .col-md-8 {width:66%; float:left;}
+  .col-md-9 {width:75%; float:left;}
+  .col-md-10{width:83%; float:left;}
+  .col-md-11{width:92%; float:left;}
+  .col-md-12{width:100%; float:left;}
+
+  .hide-print {
+    display: none;
+  }
+
+  .container {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+  }
+
+  .blog-post {
+    border-width: 0;
+  }
 }
