@@ -177,7 +177,7 @@ __[Artificial](http://artificialgame.ca/):__ A third person dungeon crawler. Fea
 
 __[Guide](https://play.google.com/store/apps/details?id=com.ReframeGames.GuideGame&hl=en):__ A serious game focusing on telling a story of mental health through the eyes of a phoenix. I developed the lighting system that is heavily used to set the player's mood.
 
-__[Trip Tracker](https://trips.schroer.ca/):__ A small travel blog service used for a relatives' trip through europe. It is a prototype mobile friendly travel CMS.
+__[Trip Tracker](https://trips.schroer.ca/):__ A small travel blog service used for a relatives' trip through Europe. It is a prototype mobile friendly travel CMS.
 
 ## Education
 
