@@ -22,13 +22,13 @@ LinkedIn: [Dominick Schroer](https://www.linkedin.com/in/dominick-schroer-018057
 
 ## About Me
 
-I have been interested in technology and software development from a young age. Being a curious person and growing up in an engineering household has turned me into a lifelong learner. I have a very inquisitive mind and jump at any new challenge that comes my way. I believe in good software design and have a passion for well built and flexible tools.
+I have been interested in technology for as long as I can remember. Growing up in an engineering household has taught me to always be curious and that every problem has a solution. Thanks to the experience from working on a range of projects from drone automation to security applications to game development, I have learned to adapt well to any challenge that comes my way.
 
 ## Skills
 
 <div class='row' markdown='1'>
 
-<div class='col-md-4 keylist' markdown='1'>
+<div class='col-md-6 keylist' markdown='1'>
 
 __Web Development__
 * HTML
@@ -40,31 +40,32 @@ __Web Development__
 * NodeJS
 </div>
 
-<div class='col-md-4 col-print-4 keylist' markdown='1'>
+<div class='col-md-6 keylist' markdown='1'>
 
 __.NET Development__
+* C#
 * .NET Core
 * Mono Cecil
 * Roslyn
 * Entity Framework
 </div>
 
-<div class='col-md-4 keylist' markdown='1'>
+<div class='col-md-6 keylist' markdown='1'>
 
-__Dev Ops__
+__DevOps__
 * Docker
 * Kubernetes
 * Rancher
 </div>
 
-<div class='col-md-4 keylist' markdown='1'>
+<div class='col-md-6 keylist' markdown='1'>
 
 __Game Development__
 * Unity 3D
 * Game Maker Studio
 </div>
 
-<div class='col-md-4 keylist' markdown='1'>
+<div class='col-md-6 keylist' markdown='1'>
 
 __Low Level Programming__
 * C
@@ -76,38 +77,126 @@ __Low Level Programming__
 
 ## Experience
 
-### Square Enix Montreal
+### [Square Enix Montreal](https://www.square-enix-montreal.com/)
 
-Tools Programmer
-2017-09-05 - present
-I started at Square as an intern after working for IBM. I worked on their internal technology team and stayed there for 3 internships in total. After my school was complete I joined the team full time. My primary role was developing a web application that is used by game teams during the production and live ops phases. This applications goal was to be a one stop portal for all members of the production staff such as developers, designers and management.
-### NATECH Environmental Services Inc.
+<div class='job-details' markdown='1'>
 
-Network Administrator / Software Developer
-2014-09-01 - 2018-04-01
-For most of my life I have worked on and off for NATECH. It was my fathers engineering firm. I started work there doing small technician jobs and moved on to more software and hardware specific tasks as my skills developed.
-### IBM Fredericton
+<div  markdown='1'>
 
-Intern Programmer
-2014-09-01 - 2014-05-01
-During university I started my internships working at IBM fredericton. They were formerly known as Q1 Labs and were in charge of the QRadar SIEM. My position was to assist their integrations team in maintaining existing product integrations and in developing new ones.
-### BIDS: Tender Publications Limited
+__Generalist Programmer__
 
-Summer Student
-2013-06-01 - 2014-02-01
-This was my first software development job. I was fresh out of high school when I started working with them for the summer. I was on a small team of two developpers. My colleague focused on creating new web tools and I focused on the crawlers that fed the pages.
+</div>
+
+<div  markdown='1'>
+
+__2015-01-05 - Present__
+
+</div>
+
+</div>
+
+At Square Enix I had a variety of roles. My main project was a web portal that unified all third party services for game developers. This software combined all of the workflow, service, and live-ops needs into a single tool. As our team grew from just three developers to over thirty, I  recruited, interviewed and trained many of the incoming developers. In addition, I played a large role in creating and managing the standardized build infrastructure for all of the studio's titles.
+
+* Shipped 6 titles: Hitman Go Windows Phone Edition, Lara Croft Go, Deus Ex Go and, 3 Unannounced Soft-Launched Titles
+* Developed a new technique for segmenting users for live-ops
+* Built tooling for two scripting ecosystems
+* Created a variety of code generation tools
+### [NATECH Environmental Services Inc.](http://www.natechenv.com/)
+
+<div class='job-details' markdown='1'>
+
+<div  markdown='1'>
+
+__Network Administrator / Software Developer__
+
+</div>
+
+<div  markdown='1'>
+
+__2014-09-01 - 2018-04-01__
+
+</div>
+
+</div>
+
+For most of my life I have worked on and off for NATECH. I started by doing mostly technician tasks and moved on to more software and hardware specific tasks as time went on. I had many opportunities to challenge myself and grow my professional skills.
+
+* Developed two iterations of time sheet and reporting software for the company
+* Prototyped a hardware device to monitor geo-thermal heat pump
+* Developed a tool to record the power usage of buildings
+* Deployed and managed the company's IT infrastructure
+* Created a workflow to perform accurate 3D photogrammetry using drones and survey references
+### [IBM Fredericton](https://www.ibm.com/)
+
+<div class='job-details' markdown='1'>
+
+<div  markdown='1'>
+
+__Intern Programmer__
+
+</div>
+
+<div  markdown='1'>
+
+__2014-05-01 - 2014-09-01__
+
+</div>
+
+</div>
+
+My work at IBM focused on the QRadar SIEM. I assisted the integrations team in maintaining existing product integrations and in developing new ones for upcoming security appliances.
+
+* Performed a tier 3 support role, fixing issues that occurred between third party devices and QRadar
+* Added support in QRadar for a new family of devices
+* Became more familiar with Regex than I would have liked
+### [BIDS: Tender Publications Limited](http://www.bids.ca/)
+
+<div class='job-details' markdown='1'>
+
+<div  markdown='1'>
+
+__Summer Student__
+
+</div>
+
+<div  markdown='1'>
+
+__2013-06-01 - 2014-02-01__
+
+</div>
+
+</div>
+
+I was fresh out of high school when I started working at BIDS. My work focused on developing web scrapers that would feed a larger system with daily updates from around the world. I was in charge of ensuring that the data we collected was accurate, up to date, and ready to be served to our subscribers.
+
+* Developed crawlers to scrape, aggregate and sanitize data from various government websites
+* Built PDF rendering tools for the subscription service
+## Projects
+
+__[Artificial](http://artificialgame.ca/):__ A third person dungeon crawler. Featuring numerous enemies, boss battles and, an upgrade system. I was one of the four developers who built this project and developed the IK and procedural generation systems.
+
+__[Guide](https://play.google.com/store/apps/details?id=com.ReframeGames.GuideGame&hl=en):__ A serious game focusing on telling a story of mental health through the eyes of a phoenix. I developed the lighting system that is heavily used to set the player's mood.
+
+__[Trip Tracker](https://trips.schroer.ca/):__ A small travel blog service used for a relatives' trip through europe. It is a prototype mobile friendly travel CMS.
+
 ## Education
 
 ### University of New Brunswick
 
-Bachelor of Computer Science
-2013-09-04 - 2017-08-12
+<div class='job-details' markdown='1'>
 
-## Projects
+<div  markdown='1'>
 
-### Test
+__Bachelor of Computer Science__
+</div>
 
-test
+<div  markdown='1'>
+
+__2013-09-04 - 2017-08-12__
+
+</div>
+
+</div>
 
 ## Interests
 
@@ -120,6 +209,8 @@ __Sports__
 * Road Cycling
 * Downhill Skiing
 * Swimming
+* Camping
+* Rowing
 </div>
 
 <div class='col-md-4 keylist' markdown='1'>
