@@ -22,7 +22,7 @@ LinkedIn: [Dominick Schroer](https://www.linkedin.com/in/dominick-schroer-018057
 
 ## About Me
 
-Interested in technology for as long as I can remember. Growing up in an engineering household has taught me to always be curious and that every problem has a solution. Thanks to the experience from working on a range of projects from drone automation to security applications to game development, I have learned to adapt to any challenge that comes my way.
+Interested in technology for as long as I can remember. Growing up in an engineering household has taught me to always be curious and that every problem has a solution. Thanks to the experience of working on a range of projects from drone automation to security applications to game development, I have learned to adapt to any challenge that comes my way.
 
 ## Skills
 
@@ -95,7 +95,7 @@ __2015-01-05 - Present__
 
 </div>
 
-At Square Enix I am working in a variety of roles. My main project is a web portal that unified all third party services for game developers. This software combined all of the workflow, service, and live-ops needs into a single tool. As our team grew from just three developers to over thirty in two years, I  recruited, interviewed and trained many of the incoming developers. In addition, I played a significant role in creating and managing the standardized build infrastructure for all of the studio's titles.
+At Square Enix I have a variety of roles. My main project is a web portal that unified all third party services for game developers. This software combined all of the workflow, service, and live-ops needs into a single tool. As our team grew from just three developers to over thirty in two years, I  recruited, interviewed and trained many of the incoming developers. In addition, I played a significant role in creating and managing the standardized build infrastructure for all of the studio's titles.
 
 * Shipped 6 titles: Hitman Go Windows Phone Edition, Lara Croft Go, Deus Ex Go and, 3 Unannounced Soft-Launched Titles
 * Developed a new technique for segmenting users for live-ops
@@ -119,7 +119,7 @@ __2014-09-01 - 2018-04-01__
 
 </div>
 
-For most of my life I have worked for NATECH. I started by providing mostly tchnical services and moved on to software and hardware specific tasks.
+For most of my life I have worked for NATECH. I started by providing mostly technical services and moved on to software and hardware specific tasks.
 
 * Developed two iterations of time sheet and reporting software for the company
 * Prototyped a hardware device to monitor geo-thermal heat pump
