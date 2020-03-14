@@ -4,7 +4,7 @@
 
 # Dominick Schroer
 
-### Tools Programmer
+### Experienced Tools Programmer
 
 </div>
 
@@ -22,7 +22,7 @@ LinkedIn: [Dominick Schroer](https://www.linkedin.com/in/dominick-schroer-018057
 
 ## About Me
 
-I have been interested in technology for as long as I can remember. Growing up in an engineering household has taught me to always be curious and that every problem has a solution. Thanks to the experience from working on a range of projects from drone automation to security applications to game development, I have learned to adapt well to any challenge that comes my way.
+Interested in technology for as long as I can remember. Growing up in an engineering household has taught me to always be curious and that every problem has a solution. Thanks to the experience from working on a range of projects from drone automation to security applications to game development, I have learned to adapt to any challenge that comes my way.
 
 ## Skills
 
@@ -95,7 +95,7 @@ __2015-01-05 - Present__
 
 </div>
 
-At Square Enix I had a variety of roles. My main project was a web portal that unified all third party services for game developers. This software combined all of the workflow, service, and live-ops needs into a single tool. As our team grew from just three developers to over thirty, I  recruited, interviewed and trained many of the incoming developers. In addition, I played a large role in creating and managing the standardized build infrastructure for all of the studio's titles.
+At Square Enix I am working in a variety of roles. My main project is a web portal that unified all third party services for game developers. This software combined all of the workflow, service, and live-ops needs into a single tool. As our team grew from just three developers to over thirty in two years, I  recruited, interviewed and trained many of the incoming developers. In addition, I played a significant role in creating and managing the standardized build infrastructure for all of the studio's titles.
 
 * Shipped 6 titles: Hitman Go Windows Phone Edition, Lara Croft Go, Deus Ex Go and, 3 Unannounced Soft-Launched Titles
 * Developed a new technique for segmenting users for live-ops
@@ -119,11 +119,11 @@ __2014-09-01 - 2018-04-01__
 
 </div>
 
-For most of my life I have worked on and off for NATECH. I started by doing mostly technician tasks and moved on to more software and hardware specific tasks as time went on. I had many opportunities to challenge myself and grow my professional skills.
+For most of my life I have worked for NATECH. I started by providing mostly tchnical services and moved on to software and hardware specific tasks.
 
 * Developed two iterations of time sheet and reporting software for the company
 * Prototyped a hardware device to monitor geo-thermal heat pump
-* Developed a tool to record the power usage of buildings
+* Developed a tool to record the power usage of various components of the building
 * Deployed and managed the company's IT infrastructure
 * Created a workflow to perform accurate 3D photogrammetry using drones and survey references
 ### [IBM Fredericton](https://www.ibm.com/)
@@ -146,9 +146,9 @@ __2014-05-01 - 2014-09-01__
 
 My work at IBM focused on the QRadar SIEM. I assisted the integrations team in maintaining existing product integrations and in developing new ones for upcoming security appliances.
 
-* Performed a tier 3 support role, fixing issues that occurred between third party devices and QRadar
+* Performed tier 3 support, fixing issues that occurred between third party devices and QRadar
 * Added support in QRadar for a new family of devices
-* Became more familiar with Regex than I would have liked
+* Became very proficient in Regex
 ### [BIDS: Tender Publications Limited](http://www.bids.ca/)
 
 <div class='job-details' markdown='1'>
@@ -167,11 +167,11 @@ __2013-06-01 - 2014-02-01__
 
 </div>
 
-I was fresh out of high school when I started working at BIDS. My work focused on developing web scrapers that would feed a larger system with daily updates from around the world. I was in charge of ensuring that the data we collected was accurate, up to date, and ready to be served to our subscribers.
+I started working at BIDS after high school. My work focused on developing web scrapers that would feed a larger system with daily updates from around the world. I was in charge of ensuring that the data we collected was accurate, up to date, and ready to be served to our subscribers.
 
 * Developed crawlers to scrape, aggregate and sanitize data from various government websites
 * Built PDF rendering tools for the subscription service
-## Projects
+## Notable Projects
 
 __[Artificial](http://artificialgame.ca/):__ A third person dungeon crawler. Featuring numerous enemies, boss battles and, an upgrade system. I was one of the four developers who built this project and developed the IK and procedural generation systems.
 
