@@ -22,7 +22,7 @@ LinkedIn: [Dominick Schroer](https://www.linkedin.com/in/dominick-schroer-018057
 
 ## About Me
 
-Interested in technology for as long as I can remember. Growing up in an engineering household has taught me to always be curious and that every problem has a solution. Thanks to the experience of working on a range of projects from drone automation to security applications to game development, I have learned to adapt to any challenge that comes my way.
+Interested in technology for as long as I can remember. Growing up in a complex engineering and academic household has taught me to always be curious and that every problem has a solution. Thanks to the experience of working on a range of projects from drone automation to security applications to game development, I have learned to adapt to any challenge that comes my way.
 
 ## Skills
 
