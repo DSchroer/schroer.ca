@@ -4,12 +4,12 @@ name: default
 
 steps:
   - name: build
-    image: node
+    image: node:12
     commands:
       - npm ci
       - npm run build
 
-  - name: upload  
+  - name: upload
     image: plugins/gcs
     settings:
       source: public
