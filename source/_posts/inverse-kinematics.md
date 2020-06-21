@@ -25,7 +25,7 @@ If you are only interested in the full script you can find it directly below. Fu
 * sprite2 (sprite_index): The index of the sprite to draw over section #2
 
 ### Full Script:
-<pre class="sunlight-highlight-javascript">
+```js
 ///draw_ik(orig_x, orig_y, target_x, target_y, length1, length2, flip, sprite1, sprite2)
 
 /*
@@ -84,27 +84,27 @@ var angle_2 = radtodeg(-arctan2(target_y - b2_y, target_x - b2_x));
 
 draw_sprite_ext(sprite1, 0, orig_x, orig_y, 1, 1, angle_1, c_white, 1);
 draw_sprite_ext(sprite2, 0, b2_x, b2_y, 1, 1, angle_2, c_white, 1);
-</pre>
+```
 
 ## Explanation
 
 Skipping the argument to variable conversions the first lines of code that we run into are:
 
-<pre class="sunlight-highlight-javascript">
+```js
 var dist = point_distance(orig_x, orig_y, target_x, target_y);
 var base_angle = -arctan2(target_y - orig_y, target_x - orig_x);
-</pre>
+```
 
 This simple calculates the distance of the origin to the target as well as the angle between them. A 2D inverse kinematic system is essentially a triangle where three lengths are known. The length of both arms and the distance between the origin and target make up the full triangle. The base angle is needed because our final result will need to reflect the original orientation of the points.  
 
 Now we can begin by calculating one of the interior angles. Specifically starting with the angle from the origin to the joint between both arms. Or the angle of the first sprite.
 
-<pre class="sunlight-highlight-javascript">
+```js
 var cos_a = (length1 * length1) + (dist * dist) - (length2 * length2);
 cos_a = cos_a / (2 * length1 * dist);
 cos_a = min(1, max(-1, cos_a));
 var angle = arccos(cos_a);
-</pre>
+```
 
 Note that we clamp the cos_a value between -1 and 1. That is because arccos is limited to that domain and is not continuous over all real numbers. In practice doing this locks the ams to a max and min angle rather than having them break if the target is too far away for the system to reach. 
 
@@ -117,35 +117,35 @@ That code was an implementation of the law of cosines where Θ is the angle from
 
 This next stage is purely for show. Flipping the angle allows the system to mirror real bones and not bend at angles that would be unrealistic. 
 
-<pre class="sunlight-highlight-javascript">
+```js
 if(flip)
 {
     angle = -angle;
 }
-</pre>
+```
 
 Now we can move on to using the angle that we calculated. Remember that our triangle is not oriented in any meaningful world space form. To calculate the actual angle in world space the code simply adds it to the base angle. Here it is also converted back to degrees since GML uses degrees.
 
-<pre class="sunlight-highlight-javascript">
+```js
 var angle_1 = radtodeg(base_angle + angle);
-</pre>
+```
 
 Next we can calculate the point where the new joint is by simply adding the vector representing our first arm to the origin point. This results in the point where both arms meet.
 
-<pre class="sunlight-highlight-javascript">
+```js
 var b2_x = orig_x + lengthdir_x(length1, angle_1);
 var b2_y = orig_y + lengthdir_y(length1, angle_1);
-</pre>
+```
 
 Finally we can use the joint position and the target position to calculate the final angle. Since both of these are worldspace points there is no need to add the base angle. 
 
-<pre class="sunlight-highlight-javascript">
+```js
 var angle_2 = radtodeg(-arctan2(target_y - b2_y, target_x - b2_x));
-</pre>
+```
 
 Now we have all three points on the triangle and the angles between them. The final stage is to draw the sprites and they will be positioned properly.
 
-<pre class="sunlight-highlight-javascript">
+```js
 draw_sprite_ext(sprite1, 0, orig_x, orig_y, 1, 1, angle_1, c_white, 1);
 draw_sprite_ext(sprite2, 0, b2_x, b2_y, 1, 1, angle_2, c_white, 1);
-</pre>
+```

@@ -15,19 +15,19 @@ The first concern that I had was "can we move all of our code to TypeScript?". W
 
 As it turns out I was concerned about nothing. TypeScript is a superset of JavaScript. This means if we make a program called ***app.js*** that contains the following JavaScript code:
 
-<pre class="sunlight-highlight-javascript">
+```js
 function test(a, b) {
     return a + b;
 }
-</pre>
+```
 
 Then we rename ***app.js*** to ***app.ts*** making it a TypeScript file. The compiled output of the application is this:
 
-<pre class="sunlight-highlight-javascript">
+```js
 function test(a, b) {
     return a + b;
 }
-</pre>
+```
 
 They are the same! This works with any JavaScript code too. Meaning that moving your entire application to TypeScript is as simple as renaming ***\*.js*** to ***\*.ts***. 
 
@@ -38,19 +38,20 @@ This is something that I did not find to be clear enough when first looking at T
 One view that I have come to have regarding TypeScript is that it does not exist. I don't mean that it is not a language, I simply mean that when your code is running on your web page there are almost no signs that TypeScript was ever there. 
 
 Lets take the toy function from before and add type information.
-<pre class="sunlight-highlight-javascript">
+
+```ts
 function test(a: number, b: number): number {
     return a + b;
 }
-</pre>
+```
 
 Now the function test only adds two numbers together, rather than adding two of anything. When we compile it, we are given the following JavaScript code:
 
-<pre class="sunlight-highlight-javascript">
+```js
 function test(a, b) {
     return a + b;
 }
-</pre>
+```
 
 As you can see, the TypeScript code is gone. It operates as a very powerful development time tool. Making sure that as a developer I don't use the wrong types within the codebase.
 

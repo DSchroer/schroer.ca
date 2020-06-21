@@ -23,9 +23,9 @@ With that, here is the reference video that I took. Its just a simple 27 second 
 
 My first step was to break the video up into a bunch of reference photos. By running the following ffmpeg command, I was able to split the video into frames. The -r command specifies 10 frames per second which resulted in 267 images for me to work with. 
 
-<pre class="sunlight-highlight-bash">
+```sh
 ffmpeg -i VID_20181109_110907.mp4 -r 10 -f image2 image-%07d.png
-</pre>
+```
 
 This was the most complicated part of the process finished. From here I opened up a copy of [Agisoft Photoscan](http://www.agisoft.com/) and set to work processing the images.
 

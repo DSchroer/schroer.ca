@@ -38,10 +38,8 @@ relative_link: false
 future: true
 highlight:
   enable: true
-  line_number: true
-  auto_detect: false
-  tab_replace:  
-
+  hljs: true
+  
 # Category & Tag
 default_category: uncategorized
 category_map:
