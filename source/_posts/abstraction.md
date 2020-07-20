@@ -1,7 +1,6 @@
 ---
 title: Degrees Of Abstraction
 date: 2019-11-02 17:47:39
-draft: true
 tags: design, abstraction, programming, tools
 ---
 
