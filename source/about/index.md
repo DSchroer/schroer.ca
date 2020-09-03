@@ -4,7 +4,7 @@
 
 # Dominick Schroer
 
-### Experienced Tools Programmer
+### Generalist Programmer
 
 </div>
 
@@ -22,7 +22,7 @@ LinkedIn: [Dominick Schroer](https://www.linkedin.com/in/dominick-schroer-018057
 
 ## About Me
 
-Interested in technology for as long as I can remember. Growing up in a complex engineering and academic household has taught me to always be curious and that every problem has a solution. Thanks to the experience of working on a range of projects from drone automation to security applications to game development, I have learned to adapt to any challenge that comes my way.
+Interested in technology for as long as I can remember. Growing up in an engineering and academic household has taught me to always be curious and that every problem has a solution. Thanks to the experience of working on a range of projects from drone automation to security applications to game development, I have learned to adapt to any challenge that comes my way. My wide range of development experience makes me good at engineering novel solutions to difficult problems. I never back down from a challenge and can work well with uncertainty and time pressure.
 
 ## Skills
 
@@ -77,6 +77,26 @@ __Low Level Programming__
 
 ## Experience
 
+### [TechInsights](https://www.techinsights.com/)
+
+<div class='job-details' markdown='1'>
+
+<div  markdown='1'>
+
+__Senior Software Reverse Engineer__
+
+</div>
+
+<div  markdown='1'>
+
+__2020-05-31 - Present__
+
+</div>
+
+</div>
+
+My role at TechInsights is to dig into technologies and reveal critical information regarding their operation. This is done using state of the art technologies and reverse engineering practices. I am tasked with revealing the innovations that are used in many products ranging from household devices to high end systems.
+
 ### [Square Enix Montreal](https://www.square-enix-montreal.com/)
 
 <div class='job-details' markdown='1'>
@@ -89,7 +109,7 @@ __Generalist Programmer__
 
 <div  markdown='1'>
 
-__2015-01-05 - Present__
+__2015-01-05 - 2020-05-31__
 
 </div>
 
@@ -175,7 +195,7 @@ I started working at BIDS after high school. My work focused on developing web s
 
 __[Artificial](http://artificialgame.ca/):__ A third person dungeon crawler. Featuring numerous enemies, boss battles and, an upgrade system. I was one of the four developers who built this project and developed the IK and procedural generation systems.
 
-__[Guide](https://play.google.com/store/apps/details?id=com.ReframeGames.GuideGame&hl=en):__ A serious game focusing on telling a story of mental health through the eyes of a phoenix. I developed the lighting system that is heavily used to set the player's mood.
+__[Guide](https://play.google.com/store/apps/details?id=com.ReframeGames.GuideGame&hl=en):__ A serious game focusing on telling a story of mental health through the eyes of a phoenix. I developed the dynamic lighting system that is heavily used to control the tone of the game.
 
 __[Trip Tracker](https://trips.schroer.ca/):__ A small travel blog service used for a relatives' trip through Europe. It is a prototype mobile friendly travel CMS.
 
