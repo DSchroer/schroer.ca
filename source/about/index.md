@@ -11,9 +11,9 @@
 <div class='col-md-5 contact' markdown='1'>
 
 Email: dominick@schroer.ca
-Website: http://www.schroer.ca/
+Website: https://www.schroer.ca/
 GitHub: [DSchroer](https://github.com/DSchroer)
-LinkedIn: [Dominick Schroer](https://www.linkedin.com/in/dominick-schroer-0180575a)
+LinkedIn: [dominick-schroer-0180575a](https://www.linkedin.com/in/dominick-schroer-0180575a)
 </div>
 
 </div>
@@ -95,6 +95,8 @@ __2020-05-31 - Present__
 
 </div>
 
+__Key Technologies: IDA Pro, X86/ARM Assembly, Python__
+
 My role at TechInsights is to dig into technologies and reveal critical information regarding their operation. This is done using state of the art technologies and reverse engineering practices. I am tasked with revealing the innovations that are used in many products ranging from household devices to high end systems.
 
 ### [Square Enix Montreal](https://www.square-enix-montreal.com/)
@@ -114,6 +116,8 @@ __2015-01-05 - 2020-05-31__
 </div>
 
 </div>
+
+__Key Technologies: C#, Angular 8, TypeScript, WebPack, Docker, Kubernetes, Java, C, Objective-C__
 
 At Square Enix I have a variety of roles. My main project is a web portal that unified all third party services for game developers. This software combined all of the workflow, service, and live-ops needs into a single tool. As our team grew from just three developers to over thirty in two years, I  recruited, interviewed and trained many of the incoming developers. In addition, I played a significant role in creating and managing the standardized build infrastructure for all of the studio's titles.
 
@@ -138,6 +142,8 @@ __2014-09-01 - 2018-04-01__
 </div>
 
 </div>
+
+__Key Technologies: C#, JavaScript, SQL, Docker, Go__
 
 For most of my life I have worked for NATECH. I started by providing mostly technical services and moved on to software and hardware specific tasks.
 
@@ -164,6 +170,8 @@ __2014-05-01 - 2014-09-01__
 
 </div>
 
+__Key Technologies: Java, Linux__
+
 My work at IBM focused on the QRadar SIEM. I assisted the integrations team in maintaining existing product integrations and in developing new ones for upcoming security appliances.
 
 * Performed tier 3 support, fixing issues that occurred between third party devices and QRadar
@@ -186,6 +194,8 @@ __2013-06-01 - 2014-02-01__
 </div>
 
 </div>
+
+__Key Technologies: C#, SQL, WebScraping__
 
 I started working at BIDS after high school. My work focused on developing web scrapers that would feed a larger system with daily updates from around the world. I was in charge of ensuring that the data we collected was accurate, up to date, and ready to be served to our subscribers.
 
