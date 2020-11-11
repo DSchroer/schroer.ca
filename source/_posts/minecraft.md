@@ -4,7 +4,7 @@ date: 2020-11-11 13:52:28
 tags: minecraft; docker; terraform
 ---
 
-I started playing Minecraft back in 2009 just after the beta version released. I have fond memories exploring the worlds and setting up home servers so that my brother and I could play together. Now its 2020 and we are in a global pandemic. Everyone is isolating and we have to deal with that. So my friends and I have started to play Minecraft again. I setup a simple server on Google Cloud Platform that only costs around a dollar a month for our usage. In this post I will go over the pieces that I used to build that server and how you can setup your own.
+I started playing Minecraft back in 2009 just after the beta version was released. I have fond memories exploring the worlds and setting up home servers so that my brother and I could play together. Now its 2020 and we are in a global pandemic. Everyone is isolating and we have to deal with that. So my friends and I have started to play Minecraft again. I setup a simple server on Google Cloud Platform that only costs around a dollar a month for our usage. In this post I will go over the pieces that I used to build that server and how you can setup your own.
 
 <!-- more -->
 
@@ -18,7 +18,7 @@ First thing to do is prepare the required files:
 
 Download the [forge server installer](http://files.minecraftforge.net/) from the project website. This will be the application that runs the server and loads our mods. It will automatically install the Minecraft server and configure it for us. 
  
-Create a file called `server.properties` and fill all the properties that you want to use. A complete list of the default properties can be found on the [Minecraft Wiki](https://minecraft.gamepedia.com/Server.properties). Make sure to customize them to your liking.
+Create a file called `server.properties` and fill all the properties that you want to use. A complete list of the default properties can be found on the [Minecraft Wiki](https://minecraft.gamepedia.com/Server.properties). Make sure to customize the settings to your liking.
 
 Finally create a `Dockerfile` with the following contents:
 
@@ -55,13 +55,11 @@ After building push the image to a public repository of some kind. In my case I 
 
 ## Terraform
 
-Now that the image is completed, it needs to be deployed somewhere to run. For this project I chose to use Google Cloud Platform because it was cheap and I already have experience working with it. The deployment needs two things to be setup:
+Now that the image is completed, it needs to be run somewhere. For this project I chose to use Google Cloud Platform because it was cheap and I already have experience working with it. The deployment needs two things to be setup:
 - A VM to run the server
 - DNS + Networking to allow access
 
-I decided that the setup should focus on cost savings and be optimized for periodic gameplay. The idea being that my friends and I only game once a week so the server should be shutoff for the rest of the time. This will keep costs very low. 
-
-I decided to use [preemptible machines](https://cloud.google.com/preemptible-vms) for this deployment because they are cheaper. There is a risk that the server may be shut down during the time that we are playing however it should be simple enough to restart it. 
+I decided that the setup should focus on cost savings and be optimized for periodic gameplay. The idea being that my friends and I only game once a week so the server should be shutoff for the rest of the time. This will keep costs very low. I decided to use [preemptible machines](https://cloud.google.com/preemptible-vms) because they are cheaper. There is a risk that the server may be shut down during the time that we are playing however it should be simple enough to restart it. 
 
 In order to keep the setup very simple, I have written a terraform module that you can find at my [Github/GCPMinecraft](https://github.com/DSchroer/GCPMinecraft) repo. This module takes care of the setup and configuration within GCP. It will only work with Docker based image servers like the one described in this tutorial.
 
@@ -104,7 +102,7 @@ Running `terraform apply` on this file sets up the new VM and creates DNS config
 
 ## Networking
 
-Finally I need to take my personal website `schroer.ca` and link it to the newly created cloud DNS records within Google Cloud. The reason I did this is to make sure that my friends have an easy to remember URL for the server and if I want to make changes I can do so without them being affected. Using the `mine` subdomain I setup the following DNS records that give Google Cloud control over that subdomain. 
+Finally I need to take my website `schroer.ca` and link it to the newly created cloud DNS records within Google Cloud. The reason I did this is to make sure that my friends have an easy to remember URL for the server and if I want to make changes I can do so without them being affected. Using the `mine` subdomain I setup the following DNS records that give Google Cloud control over that subdomain. 
 
 ```dns
 ;; NS Records
